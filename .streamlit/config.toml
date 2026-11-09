@@ -1,0 +1,6 @@
+[theme]
+base = "light"
+primaryColor = "#3b5b92"
+
+[server]
+enableWebsocketCompression = true

@@ -64,8 +64,8 @@ c1, c2, c3 = st.columns(3)
 c1.metric("Error relativo mediano (test)", E.pct(T["modelo"]["err_rel_mediano"]),
           f"{E.pct(T['modelo']['err_rel_mediano'] - T['piso']['err_rel_mediano'])} vs. el piso", delta_color="inverse")
 c2.metric("Error promedio por noche (test)", E.pesos(T["modelo"]["MAE"]),
-          f"−{E.pesos(T['piso']['MAE'] - T['modelo']['MAE'])} vs. el piso", delta_color="off")
-c3.metric("Publicaciones analizadas", E.entero(D['filas']), f"{D['barrios']} barrios", delta_color="off")
+          f"-{E.pesos(T['piso']['MAE'] - T['modelo']['MAE'])} vs. el piso", delta_color="inverse")
+c3.metric(f"Publicaciones analizadas ({D['barrios']} barrios)", E.entero(D['filas']))
 st.caption("El piso es predecir siempre la mediana de train, sin mirar ninguna columna.")
 st.divider()
 

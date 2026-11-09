@@ -3,7 +3,7 @@
 Proyecto integrador de Ciencia de Datos (UTN FRM, 2026), grupo 5K09-06:
 Canzio, Fernández Rossi, García Nieto, Giacomelli, Moyano y Rubiales.
 
-**Aplicación:** <URL de Streamlit Community Cloud>
+**Aplicación:** https://precio-airbnb-caba.streamlit.app/
 
 ## La cadena completa
 
